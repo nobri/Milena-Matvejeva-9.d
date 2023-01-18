@@ -1,0 +1,46 @@
+
+#include <iostream>
+
+using namespace std;
+int main()
+//{
+//	int age;
+//	cin >> age;
+//		if (age >= 0 && age <= 100) { cout << "ok"; }
+//		else cout << "wrong";
+//	string name;
+//	cin >> name;
+//	if (name == "milena" || name == "Milena") { cout << "ok"; }
+//	else cout << "wrong";
+//}
+
+//{
+//	int catage, dogage;
+//	cin >> catage >> dogage;
+//	if (catage >= 0 && catage <= 25) { cout << "that's good "; }
+//	else cout << "cat is too old";
+//	if (dogage >= 0 && dogage <= 30) { cout << " that's good"; }
+//	else cout << "dog is too old";
+//	
+//}
+
+//{
+//	int atz, vec, aug;
+//	cin >> atz >> vec >> aug;
+//	if (atz >= 0 && atz <= 10) { cout << " marks ok "; }
+//	else cout << "marks wrong";
+//	if (vec >= 0 && vec <= 18) { cout << " age ok"; }
+//	else cout << "age wrong";
+//	if (aug >= 150 && aug <= 200) { cout << " height ok"; }
+//	else cout << "height wrong";
+//}
+
+
+{
+	int age = 15;
+	string parol = "kkkapp", p1;
+	cout << "+*+*+*+*+*+*+*+*+*+*+*+*" << endl;
+	cin >> p1;
+	if (p1 == parol) { cout << age; }
+	else cout << "access denied";
+}
