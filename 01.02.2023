@@ -1,0 +1,62 @@
+#include <iostream>
+
+using namespace std;
+int main()
+
+//{
+//	int sk1, sk2;
+//	cin >> sk1 >> sk2;
+//
+//	if (sk1%2==0) { cout << "para " << endl; }
+//	else cout << "nepara " << endl;
+//	if (sk2 % 2 == 0) { cout << "para"; }
+//	else cout << "nepara";
+//}
+
+//{
+//	int sk1, sk2;
+//	cin >> sk1 >> sk2;
+//	if (sk1 > sk2)
+//		cout << "sk1 max, sk2 min";
+//	else
+//		cout << "sk1min, sk 2 max";
+//}
+
+//{
+//	int sk1, sk2;
+//	cin >> sk1 >> sk2;
+//	if (sk1 > sk2)
+//		cout << "sk1 max, sk2 min" << endl ;
+//	else
+//		cout << "sk1min, sk 2 max" << endl ;
+//	if (sk1 < 0)
+//		cout << "sk1 negativs" << endl;
+//	else
+//		cout << "sk1 pozitivs" << endl;
+//	if (sk2 < 0)
+//		cout << "sk2 negativs" << endl;
+//	else
+//		cout << "sk2 pozitivs" << endl;
+//	if (sk1 % 2 == 0) { cout << "para " << endl; }
+//		else cout << "nepara " << endl;
+//		if (sk2 % 2 == 0) { cout << "para"; }
+//		else cout << "nepara";
+//}
+
+{
+	int g;
+	cin >> g;
+	if (g >= 90 && g <= 100)
+		cout << "Grade A" << endl;
+	if (g >= 80 && g <= 89)
+		cout << "Grade B" << endl;
+	if (g >= 70 && g <= 79)
+		cout << "Grade C" << endl;
+	if (g >= 60 && g <= 69)
+		cout << "Grade D" << endl;
+	if (g >= 40 && g <= 59)
+		cout << "Grade E" << endl;
+	if (g < 40 && g >= 0 )
+		cout << "Grade F" << endl;
+
+}
