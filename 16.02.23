@@ -1,0 +1,70 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main()
+
+//{
+//	using namespace std;
+//	vector <int> sk{ 1, 2, 3, 1, 2 };
+//	if (sk[0] == 1)  cout << "ir sk 1 pirma vieta" << endl;
+//	if (sk[1] == 1)  cout << "ir sk 1 otraja vieta" << endl;
+//	if (sk[2] == 1)  cout << "ir sk 1 tresaja vieta" << endl;
+//	if (sk[3] == 1)  cout << "ir sk 1 ceturtaja vieta" << endl;
+//	if (sk[4] == 1)  cout << "ir sk 1 piektaja vieta" << endl;
+//
+//}
+
+//{
+//	using namespace std;
+//	vector <int> sk{ 1, 2, 4, 1, 2 };
+//	if (sk[0] == 4)  cout << "sk 4 ir pirma vieta" << endl;
+//	if (sk[1] == 4)  cout << "sk 4 ir otraja vieta" << endl;
+//	if (sk[2] == 4)  cout << "sk 4 ir tresaja vieta" << endl;
+//	if (sk[3] == 4)  cout << "sk 4 ir ceturtaja vieta" << endl;
+//	if (sk[4] == 4)  cout << "sk 4 ir piektaja vieta" << endl;
+//
+//}
+
+//{
+//	string atb, num;
+//	vector <string> count { "USA", "UK", "China", "India", "Canada", "Australia"};
+//	vector <string> code{ "+1", "+44", "+86", "+91", "+1", "+61" };
+//	cin >> atb >> num;
+//	if (code[0] == atb) { cout << count[0] << "  " << atb << num << endl; }
+//	if (code[1] == atb) { cout << count[1] << "  " << atb << num << endl; }
+//	if (code[2] == atb) { cout << count[2] << "  " << atb << num << endl; }
+//	if (code[3] == atb) { cout << count[3] << "  " << atb << num << endl; }
+//	if (code[4] == atb) { cout << count[4] << "  " << atb << num << endl; }
+//}
+
+//{
+//	int atb;
+//	vector <int> atz{3, 8, 7, 4};
+//	vector <string> name{ "Anna", "Antons", "Vlads", "Artemijs" };
+//	cin >> atb;
+//	if (atz[0] == atb)  cout << name[0];
+//	if (atz[1] == atb)  cout << name[1];
+//	if (atz[2] == atb)  cout << name[2];
+//	if (atz[3] == atb)  cout << name[3];
+//	if (atb != atz[0] && atb != atz[1] && atb != atz[2] && atb != atz[3]) cout <<"nepareiza atzime";
+//
+//}
+
+//{
+//	vector <int> sk{ 2, 3, 5, 7 };
+//	cout << sk[0] * sk[0] << endl;
+//	cout << sk[1] * sk[1] << endl;
+//	cout << sk[2] * sk[2] << endl;
+//	cout << sk[3] * sk[3] << endl;
+//}
+
+{
+	string atb, num;
+	vector <string> svt { "1. septembris", "lacpliesa diena", "valsts proklamesanas diena"};
+	vector <string> date{ "01.09", "11.11", "18.11"};
+	cin >> atb >> num;
+	if (svt[0] == atb) { cout << date[0] << endl; }
+	if (svt[1] == atb) { cout << date[1] << endl; }
+	if (svt[2] == atb) { cout << date[2] << endl; }
+}
