@@ -1,0 +1,57 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+int main()
+//{
+//	vector <int> num{ 1,2,5,6,7,3,1,2 };
+//	int i = 0;
+//	do {
+//		if (num[i] == 3) cout << "ir 3 " << endl;
+//		if (num[i] == 5) cout << "ir 5 " << endl;
+//		i++;
+//	} while (i<num. size ());
+//
+//	num.pop_back();
+//	num.at(4) = 5;
+//	num.push_back(3);
+//
+//	i = 0;
+//	do {
+//		cout << num[i] << endl;
+//	i++;
+//	} while (i<num. size ());
+//}
+
+//{
+//	vector <string> liet{ "galds", "kresls", "lampa", "dators", "durvis"};
+//	int i = 0;
+//	do {
+//		if (liet[i] == "dators") cout << "ir dators " << endl;
+//		if (liet[i] == "skapis") cout << "ir skapis " << endl;
+//		i++;
+//	} while (i < liet.size());
+//
+//	liet.pop_back();
+//	liet.at(3) = "laptops";
+//	liet.push_back("durvis");
+//
+//	i = 0;
+//	do {
+//		cout << liet[i] << endl;
+//		i++;
+//	} while (i < liet.size());
+//}
+
+{
+	vector <string> valst{ "USA", "UK", "China", "India", "Canada", "Australija"};
+	vector <string> kods{ "+1", "+44", "+86", "+91", "+1", "+61"};
+	string atb;
+	cin >> atb;
+	int i = 0;
+	do {
+		if (valst[i] == atb) cout << kods[i] << endl;
+		if (valst[i] == atb) cout << kods[i] << endl;
+		i++;
+	} while (i < valst.size());
+
+}
