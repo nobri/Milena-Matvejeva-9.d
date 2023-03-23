@@ -1,0 +1,30 @@
+CREATE TABLE EMPLOYEE (
+  employee_id INTEGER NOT NULL,
+  first_name TEXT NOT NULL,
+  last_name TEXT NOT NULL,
+  pilseta TEXT NOT NULL,
+  custumer_id TEXT NOT NULL,
+  custumer_name TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO EMPLOYEE VALUES (1, 'Thomas(Neo)', 'Andreson', 'London', 1, 'Jeweiry Store.');
+INSERT INTO EMPLOYEE VALUES (1, 'Thomas(Neo)', 'Andreson', 'London', 2, 'Bakery.');
+INSERT INTO EMPLOYEE VALUES (1, 'Thomas(Neo)', 'Andreson', 'London', 3, 'Cafe.'); 
+INSERT INTO EMPLOYEE VALUES (1, 'Thomas(Neo)', 'Andreson', 'London', 4, 'Restaurant.');
+INSERT INTO EMPLOYEE VALUES (1, 'Agent', 'Smith', 1, 'Cardiff', 'Jeweiry Store.');
+INSERT INTO EMPLOYEE VALUES (1, 'Agent', 'Smith', 2, 'Cardiff', 'Bakery.');
+INSERT INTO EMPLOYEE VALUES (1, 'Agent', 'Smith', 3, 'Cardiff', 'Cafe.');
+INSERT INTO EMPLOYEE VALUES (1, 'Agent', 'Smith', 4, 'Cardiff', 'Restaurant.');
+
+-- fetch
+SELECT * FROM EMPLOYEE ;
+
+SELECT * FROM EMPLOYEE Where custumer_name= 'Bakery.';
+
+SELECT * FROM EMPLOYEE Where employee_id = 4 and last_name= 'Andreson';
+SELECT MIN(custumer_id) AS lowest_custumer_id FROM EMPLOYEE;
+SELECT MAX(custumer_id) AS highest_custumer_id FROM EMPLOYEE;
+SELECT AVG(custumer_id) AS average_custumer_id FROM EMPLOYEE;
+SELECT * FROM EMPLOYEE ;
+SELECT * FROM EMPLOYEE Where pilseta= 'London' and first_name= 'Agent';
