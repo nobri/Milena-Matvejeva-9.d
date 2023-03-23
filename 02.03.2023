@@ -1,0 +1,38 @@
+
+-- create
+
+CREATE TABLE EMPLOYEE (
+numurs INTEGER PRIMARY KEY,
+day TEXT NOT NULL,
+date TEXT NOT NULL,
+weather TEXT NOT NULL,
+temp INTEGER NOT NULL
+);
+
+-- insert
+
+INSERT INTO EMPLOYEE VALUES (1, 'ceturtdiena', '16 februari', 'windy', +6);
+INSERT INTO EMPLOYEE VALUES (2, 'piektdiena', '17 februari', 'windy', +5);
+INSERT INTO EMPLOYEE VALUES (3, 'sestdiena', '18 februari', 'sunny', +5);
+INSERT INTO EMPLOYEE VALUES (4, 'svetdiena', '19 februari', 'sunny', +6);
+INSERT INTO EMPLOYEE VALUES (5, 'pirmdiena', '20 februari', 'snow', -2);
+INSERT INTO EMPLOYEE VALUES (6, 'otrdiena', '21 februari', 'windy', +3);
+INSERT INTO EMPLOYEE VALUES (7, 'tresdiena', '22 februari', 'windy', -5);
+INSERT INTO EMPLOYEE VALUES (8, 'ceturtdiena', '23 februari', 'snow', -7);
+INSERT INTO EMPLOYEE VALUES (9, 'piektdiena', '24 februari', 'snow', -4);
+INSERT INTO EMPLOYEE VALUES (10, 'sestdiena', '25 februari', 'windy', +0);
+INSERT INTO EMPLOYEE VALUES (11, 'svetdiena', '26 februari', 'sunny', +3);
+INSERT INTO EMPLOYEE VALUES (12, 'pirmdiena', '27 februari', 'snow', -4);
+INSERT INTO EMPLOYEE VALUES (13, 'otrdiena', '28 februari', 'windy',-4);
+INSERT INTO EMPLOYEE VALUES (14, 'tresdiena', '29 februari', 'windy',-2);
+
+-- fetch
+
+SELECT * FROM EMPLOYEE;
+SELECT * FROM EMPLOYEE where temp> +0;
+SELECT * FROM EMPLOYEE where day = 'pirmdiena' and weather = 'snow';
+SELECT MIN(temp) AS lowestTemperature FROM EMPLOYEE;
+SELECT MAX(temp) AS highestTemperature FROM EMPLOYEE;
+SELECT AVG(temp) AS averageTemperature FROM EMPLOYEE;
+SELECT * FROM EMPLOYEE where weather = 'snow';
+delete FROM EMPLOYEE where weather ='sunny';
